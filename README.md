@@ -8,14 +8,36 @@
 
 请在右侧或下方的 **Releases** 页面下载最新版压缩包：
 
-- 最新版本：`CQUThesisEditor-v3.2-20260701-090251.zip`
-- Release 页面：[v2026.07.01](https://github.com/HeYi103/CQUThesisEditor/releases/tag/v2026.07.01)
-- 直接下载：[CQUThesisEditor-v3.2-20260701-090251.zip](https://github.com/HeYi103/CQUThesisEditor/releases/download/v2026.07.01/CQUThesisEditor-v3.2-20260701-090251.zip)
+- 最新版本：`CQUThesisEditor-v3.3-20260801-004903.zip`
+- Release 页面：[v2026.08.01](https://github.com/HeYi103/CQUThesisEditor/releases/tag/v2026.08.01)
+- 直接下载：[CQUThesisEditor-v3.3-20260801-004903.zip](https://github.com/HeYi103/CQUThesisEditor/releases/download/v2026.08.01/CQUThesisEditor-v3.3-20260801-004903.zip)
 
 压缩包内包含：
 
 - `CQUThesisEditor.exe`
 - `使用说明.md`
+- `release-manifest.json`
+
+## 更新公告
+
+### v3.3 — 2026-08-01
+
+- 新增“格式化 Word（另存副本）”，在不覆盖源文件的前提下，将现有 DOCX 规范为学校格式。
+- 保留图片、原生 Word 图表、OMML 公式、表格、文本框、嵌入对象、Word 域、修订和 OOXML 关系。
+- 正文采用固定 20 磅行距；可安全处理的顶层表格采用五号字和单倍行距。
+- 增加源文件占用检查、对象完整性保护、独立工作进程、进度、取消和超时处理。
+
+### v3.2 — 2026-07-01
+
+- 修复行间公式居中和公式编号右对齐，扩展 LaTeX 到 Word OMML 转换。
+- 增加格式体检、常见参考文献检查和双面打印提醒。
+- 补充封面、公式、图表、参考文献和反馈说明。
+
+### 首次公开版本 — 2026-06-28
+
+- 首次提供 Windows 可执行程序和使用说明下载。
+- 提供 Markdown 编辑、实时预览以及 Word/PDF 导出基础流程。
+- 明确封面、目录、页眉页码、公式、图表和参考文献仍需人工最终复核。
 
 ## 使用前提醒
 
@@ -29,6 +51,7 @@
 
 ## 主要功能
 
+- 格式化现有 Word 并另存副本，保留图片、原生图表、OMML 公式、表格和文本框等对象。
 - Markdown 写作与实时预览。
 - 中文封面和英文封面导出，并提醒核对个人信息。
 - Word 导出，自动处理页眉、页码、目录、正文样式、参考文献和公式。
